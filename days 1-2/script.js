@@ -22,4 +22,22 @@ console.log(802/2)
 console.log((6+5)*3)
 console.log(undefined || null)
 
+let enoughMoneyInBank = false
+let hasJob = true
+
+if(enoughMoneyInBank){
+    console.log("buy a gift")
+}
+    else 
+         if(hasJob) {
+        console.log("go to work")
+    
+}
+else {
+    console.log("go find a job")
+}
+
+
+
+
 
